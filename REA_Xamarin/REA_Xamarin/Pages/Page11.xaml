@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controls:HeaderFooterPage xmlns="http://xamarin.com/schemas/2014/forms"
+                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                           xmlns:controls="clr-namespace:REA_Xamarin.Pages"
+                           x:Class="REA_Xamarin.Pages.Page11"
+                           Title="Access template"
+                           HeaderText="Страница TemplatedPage"
+                           ControlTemplate="{StaticResource OrangeTemplate}"
+                           BackgroundColor="Black"> 
+    
+    <StackLayout Margin="10">
+        <Entry Placeholder="Enter username" PlaceholderColor="White" />
+        <Entry Placeholder="Enter password" IsPassword="True" PlaceholderColor="White" />
+        <Button Text="Login" />
+    </StackLayout>
+    
+</controls:HeaderFooterPage>

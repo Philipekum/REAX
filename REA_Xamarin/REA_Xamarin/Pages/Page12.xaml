@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="REA_Xamarin.Pages.Page12"
+             BackgroundColor="Black"
+             Padding="0,100,0,0">
+    <Grid Margin="20,35,20,20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.25*" />
+            <ColumnDefinition Width="0.20*" />
+            <ColumnDefinition Width="0.35*" />
+            <ColumnDefinition Width="0.20*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="200" />
+        </Grid.RowDefinitions>
+        <Label   Text="Italic:"
+                 TextColor="White" FontAttributes="Bold"
+                 FontSize="16"
+                 VerticalOptions="Center"/>
+        <CheckBox    Grid.Column="1"
+                     Color="#f35325"
+                     CheckedChanged="OnItalic"
+                     VerticalOptions="Center" />
+        <Label   Grid.Column="2"
+                 Text="Bold:"
+                 TextColor="White" FontAttributes="Bold"
+                 FontSize="16"
+                 VerticalOptions="Center" />
+        <CheckBox    Grid.Column="3"
+                     Color="#81bc06"
+                     CheckedChanged="OnBold"
+                     VerticalOptions="Center" />
+        <Label   Grid.Row="1"
+                 Text="Underline:"
+                 TextColor="White" FontAttributes="Bold"
+                 FontSize="16"
+                 VerticalOptions="Center" />
+        <CheckBox    Grid.Row="1"
+                     Grid.Column="1"
+                     Color="#05a6f0"
+                     CheckedChanged="OnUnderline"
+                     VerticalOptions="Center" />
+        <Label   Grid.Row="1"
+                 Grid.Column="2"
+                 Text="Strikethrough:"
+                 TextColor="White" FontAttributes="Bold"
+                 FontSize="16"
+                 VerticalOptions="Center" />
+        <CheckBox    Grid.Row="1"
+                     Grid.Column="3"
+                     Color="#ffba08"
+                     CheckedChanged="OnStrikethrough"
+                     VerticalOptions="Center" />
+        <Label   x:Name="label"
+                 Grid.Row="2"
+                 Grid.ColumnSpan="4"
+                 TextColor="White" FontAttributes="Bold"
+                 FontSize="30"
+                 HorizontalTextAlignment="Center"
+                 VerticalTextAlignment="Center"
+                 Text="Форматирование текста в элементе управления Label"/>
+    </Grid>
+</ContentPage>

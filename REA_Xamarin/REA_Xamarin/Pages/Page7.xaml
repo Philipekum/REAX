@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="REA_Xamarin.Pages.Page7"
+             BackgroundColor="black"
+             Title="Calculator">
+    
+    <ContentPage.Resources>
+        <Style x:Key="OperationButtons" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#a8aac1" />
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="CornerRadius" Value="90" />
+            <Setter Property="FontSize" Value="25" />
+        </Style>
+
+        <Style x:Key="DigitsButtons" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#22222a"/>
+            <Setter Property="TextColor" Value="#e8e7ee"/>
+            <Setter Property="CornerRadius" Value="90"/>
+            <Setter Property="FontSize" Value="25"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <Grid RowSpacing="10" ColumnSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <BoxView BackgroundColor="#30323e" Grid.ColumnSpan="4">
+            
+        </BoxView>
+
+
+        <Label x:Name="Result"
+               FontSize="50"
+               HorizontalOptions="End"
+               VerticalOptions="End"
+               Grid.ColumnSpan="4"/>
+        
+        <Button Text="AC"
+                Grid.Row="1"
+                BackgroundColor="#ffd6f6"
+                TextColor="#1e0017"
+                Style="{StaticResource OperationButtons}" 
+                Clicked="ClearClicked"/>
+        
+        <Button Text="+/-"
+                Grid.Row="1"
+                Grid.Column="1"
+                Style="{StaticResource OperationButtons}"
+                Clicked="MinusClicked"/>
+        
+        <Button Text="%"
+                Grid.Row="1"
+                Grid.Column="2"
+                Style="{StaticResource OperationButtons}" 
+/>
+        <Button Text="div"
+                Grid.Row="1"
+                Grid.Column="3"
+                Style="{StaticResource OperationButtons}" 
+                Clicked="DigitClicked"/>
+        
+        
+        
+      
+        <Button Text="7"
+                Grid.Row="2"
+                Style="{StaticResource DigitsButtons}" 
+                Clicked="DigitClicked"/>
+        <Button Text="8"
+                Grid.Row="2"
+                Grid.Column="1"
+                Style="{StaticResource DigitsButtons}"
+                Clicked="DigitClicked"/>
+        <Button Text="9"
+                Grid.Row="2"
+                Grid.Column="2"
+                Style="{StaticResource DigitsButtons}"
+                Clicked="DigitClicked"/>
+        
+        <Button Text="X"
+                Grid.Row="2"
+                Grid.Column="3"
+                Style="{StaticResource OperationButtons}" 
+                Clicked="DigitClicked"/>
+        
+        
+        
+        
+        <Button Text="4"
+                Grid.Row="3"
+                Style="{StaticResource DigitsButtons}"
+                Clicked="DigitClicked"/>
+        <Button Text="5"
+                Grid.Row="3"
+                Grid.Column="1"
+                Style="{StaticResource DigitsButtons}" 
+                Clicked="DigitClicked"/>
+        <Button Text="6"
+                Grid.Row="3"
+                Grid.Column="2"
+                Style="{StaticResource DigitsButtons}" 
+                Clicked="DigitClicked"/>
+        
+        <Button Text="-"
+                Grid.Row="3"
+                Grid.Column="3"
+                Style="{StaticResource OperationButtons}" 
+                Clicked="DigitClicked"/>
+        
+        
+        
+        
+        <Button Text="1"
+                Grid.Row="4"
+                Style="{StaticResource DigitsButtons}"
+                Clicked="DigitClicked"/>
+        <Button Text="2"
+                Grid.Row="4"
+                Grid.Column="1"
+                Style="{StaticResource DigitsButtons}"
+                Clicked="DigitClicked"/>
+        <Button Text="3"
+                Grid.Row="4"
+                Grid.Column="2"
+                Style="{StaticResource DigitsButtons}" 
+                Clicked="DigitClicked"/>
+        
+        <Button Text="+"
+                Grid.Row="4"
+                Grid.Column="3"
+                Style="{StaticResource OperationButtons}" 
+                Clicked="DigitClicked"/>
+        
+        
+        
+        <Button Text="0"
+                Grid.Row="5"
+                Style="{StaticResource DigitsButtons}" 
+                Clicked="DigitClicked"/>
+        <Button Text="."
+                Grid.Row="5"
+                Grid.Column="1"
+                Style="{StaticResource DigitsButtons}"
+                Clicked="DigitClicked"/>
+        <Button Text="DEL"
+                Grid.Row="5"
+                Grid.Column="2"
+                Style="{StaticResource DigitsButtons}"/>
+        <Button Text="="
+                BackgroundColor="#dce1ff"
+                TextColor="#071349"
+                Grid.Row="5"
+                Grid.Column="3"
+                Style="{StaticResource DigitsButtons}"
+                Clicked="Calculate"/>
+    </Grid>
+</ContentPage>

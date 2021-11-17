@@ -8,7 +8,8 @@ namespace REA_Xamarin.Pages
 {
     class NamedColor
     {
-        static StringBuilder stringBuilder = new StringBuilder(); private NamedColor() { }
+        static StringBuilder stringBuilder = new StringBuilder(); 
+        private NamedColor() { }
         public string Name { private set; get; }
         public string FriendlyName { private set; get; }
         public Color Color { private set; get; }
@@ -62,8 +63,7 @@ namespace REA_Xamarin.Pages
                                 (int)(255 * color.G),
                                 (int)(255 * color.B))
             };
-            return namedColor;
-          
+            return namedColor;          
         }
     }
 }

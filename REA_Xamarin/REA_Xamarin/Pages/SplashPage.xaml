@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="REA_Xamarin.Pages.SplashPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        
+        <StackLayout Orientation="Horizontal" 
+                     HorizontalOptions="CenterAndExpand" 
+                     VerticalOptions="CenterAndExpand">
+            <Image Source="splash.png" 
+                   x:Name="image"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="REA_Xamarin.Pages.Page13"
+             BackgroundColor="#121212">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <Label   Text="Работа с RadioButton"
+                     TextColor="#8b8b8b"
+                     FontSize="50"
+                     FontAttributes="Bold"
+                     HorizontalOptions="Center" />
+            <Label   Text="С каким типом хлеба из перечисленных Вы ассоциируете себя больше всего?"
+                     FontAttributes="Bold"
+                     FontSize="20" TextColor="White"/>
+            <RadioButton Content="Хлеб ржаной"
+                         FontSize="16" FontAttributes="Bold"
+                         TextColor="Red"
+                         GroupName="colors"
+                         CheckedChanged="OnColorChanged" />
+            <RadioButton Content="Булочное изделие"
+                         FontSize="16" FontAttributes="Bold"
+                         TextColor="Orange"
+                         GroupName="colors"
+                         CheckedChanged="OnColorChanged" />
+            <RadioButton Content="Хлеб пшеничный"
+                         FontSize="16" FontAttributes="Bold"
+                         TextColor="Yellow"
+                         GroupName="colors"
+                         CheckedChanged="OnColorChanged" />
+            <RadioButton Content="Черный хлеб"
+                         TextColor="Green"
+                         FontSize="16" FontAttributes="Bold"
+                         GroupName="colors"
+                         CheckedChanged="OnColorChanged" />
+            <Label   x:Name="colorLabel"
+                     FontSize="20" FontAttributes="Bold"
+                     TextColor="#8b8b8b"
+                     Text="Вы:" />
+            <Label   Text="Как часто Вы ставите зачеты студентам?"
+                     FontAttributes="Bold"
+                     FontSize="20" TextColor="White"/>
+            <RadioButton Content="Почти постоянно"
+                         TextColor="LightBlue"
+                         FontSize="16" FontAttributes="Bold"
+                         GroupName="fruits"
+                         CheckedChanged="OnFruitChanged" />
+            <RadioButton Content="Часто"
+                         TextColor="Blue"
+                         FontSize="16" FontAttributes="Bold"
+                         GroupName="fruits"
+                         CheckedChanged="OnFruitChanged" />
+            <RadioButton Content="Редко"
+                         TextColor="Purple"
+                         FontSize="16" FontAttributes="Bold"
+                         GroupName="fruits"
+                         CheckedChanged="OnFruitChanged" />
+            <RadioButton Content="Никогда"
+                         FontSize="16" FontAttributes="Bold"
+                         GroupName="fruits"
+                         CheckedChanged="OnFruitChanged" />
+            <Label   x:Name="fruitLabel"
+                     FontAttributes="Bold"
+                     FontSize="20" TextColor="#8b8b8b"
+                     Text="Ваш ответ:" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

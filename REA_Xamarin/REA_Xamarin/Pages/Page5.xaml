@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="REA_Xamarin.Pages.Page5"
+             Title="Basic Grid Demo"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition />
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <BoxView Color="#148a08"/>
+                <Label Text="Row 0, Column 0" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <BoxView Grid.Column="1" Color="#1e3264"/>
+            <Label Grid.Column="1" Text="Row 0, Column 1" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <BoxView Grid.Row="1" Color="#477d95"/>
+            <Label Grid.Row="1" Text="Row 1, Column 0" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <BoxView Grid.Row="1" Grid.Column="1" Color="#503750"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="Row 1, Column 1" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <BoxView Grid.Row="2" Grid.ColumnSpan="2" Color="#8c1932"/>
+            <Label Grid.Row="2" Grid.ColumnSpan="2" TextColor="White"  Text="Row 2, Columns 0 and 1" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

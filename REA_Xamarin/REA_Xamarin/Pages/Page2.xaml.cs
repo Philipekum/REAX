@@ -14,68 +14,83 @@ namespace REA_Xamarin.Pages
     {
         public Page2()
         {
-            Label header = new Label
-            {
-                Text = "Про пацанов, которых воспитала улица: ",
-                FontSize = 30,
-                FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
-            };
-            Label header1 = new Label
-            {
-                Text = "Миша Будуев",
-                FontSize = 20,
-                FontAttributes = FontAttributes.Italic,
-            };
-
-            Label label1 = new Label
-            {
-                Text = "Он не ест гречневую кашу " + "Любит он старосту Машу " + "Глазками стреляет очень метко " + "Вот тебе контрольный, детка!",
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
-            };
-
-            Label header2 = new Label
-            {
-                Text = "Паша Долманский",
-                FontSize = 20,
-                FontAttributes = FontAttributes.Italic,
-            };
-            Label label2 = new Label
-            {
-                Text = "Шаболовская, зима, газировка " + "Старые коньки, хоккей, дворовая коробка. " + "Мальчик Паша в шарфе клетчатом " + "Гоняет шайбу с ребетней с утра до вечера.",
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
-            };
-
-            Label header3 = new Label
-            {
-                Text = "Серега Королев",
-                FontSize = 20,
-                FontAttributes = FontAttributes.Italic,
-            };
-
-            Label label3 = new Label
-            {
-                Text = "Знают все девчонки в мире,\nЧто Серега хулиган " + "Белый мерин, белый мерин " + "Мой надежный, верный конь",
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
-            };
-
-            Label header4 = new Label
-            {
-                Text = "Phil Цеханский",
-                FontSize = 20,
-                FontAttributes = FontAttributes.Italic,
-            };
-
-            Label label4 = new Label
-            {
-                Text = "Филипп, мужик, я поздравляю " + "Девчонок кучу и любви желаю " + "И счастье пусть не за горами, " + "Враги уже все под ногами.",
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
-            };
-
-            Title = "Дворовая шпана";
+            BackgroundColor = Color.Black;
+            Title = "Content Page";
             Padding = new Thickness(10, 0);
+
             Content = new StackLayout
-            { Children = { header, header1, label1, header2, label2, header3, label3, header4, label4 } };
+            { 
+                Children = 
+                {
+                    new Label
+                    {
+                        Text = "Про пацанов, которых воспитала улица: \n",
+                        TextColor = Color.White,
+                        FontSize = 25,
+                        FontAttributes = FontAttributes.Bold,
+                        HorizontalOptions = LayoutOptions.Center
+                    },
+                    new Label
+                    {
+                        Text = "Миша Будуев",
+                        FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                        FontAttributes = FontAttributes.Italic,
+                        TextColor = Color.White
+
+                    },
+                    new Label
+                    {
+                        TextColor = Color.White,
+                        Text = "Он не ест гречневую кашу\nЛюбит он старосту Машу\nГлазками стреляет очень метко\nВот тебе контрольный, детка!\n",
+                        FontSize = 18
+                    },
+                    new Label
+                    {
+                        Text = "Паша Долманский",
+                        FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                        FontAttributes = FontAttributes.Italic,
+                        TextColor = Color.White,
+
+                    },
+                    new Label
+                    {
+                        Text = "Шаболовская, зима, газировка\nСтарые коньки, хоккей, дворовая коробка.\nМальчик Паша в шарфе клетчатом\nГоняет шайбу с ребетней с утра до вечера.\n",
+                        FontSize = 18,
+                        TextColor = Color.White,
+
+                    },
+                    new Label
+                    {
+                        Text = "Серега Королев",
+                        FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                        FontAttributes = FontAttributes.Italic,
+                        TextColor = Color.White,
+
+                    },
+                    new Label
+                    {
+                        Text = "Знают все девчонки в мире,\nЧто Серега хулиган\nБелый мерин, белый мерин\nМой надежный, верный конь\n",
+                        FontSize = 18,
+                        TextColor = Color.White,
+
+                    },
+                    new Label
+                    {
+                        Text = "Phil Цеханский",
+                        FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                        FontAttributes = FontAttributes.Italic,
+                        TextColor = Color.White,
+
+                    },
+                    new Label
+                    {
+                        Text = "Филипп, мужик, я поздравляю\nДевчонок кучу и любви желаю\nИ счастье пусть не за горами,\nВраги уже все под ногами.\n",
+                        FontSize = 18,
+                        TextColor = Color.White,
+
+                    }
+                } 
+            };
         }
     }
 };

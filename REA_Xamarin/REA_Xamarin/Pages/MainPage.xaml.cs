@@ -29,7 +29,51 @@ namespace REA_Xamarin
         }
         private async void Button_Page4(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page1());
+            await Navigation.PushAsync(new Page4());
+        }
+        private async void Button_Page5(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page5());
+        }
+        private async void Button_Page6(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page6());
+        }
+        private async void Button_Page7(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page7());
+        }
+        private async void Button_Page8(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page8());
+        }
+        private async void Button_Page9(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page9());
+        }
+        private async void Button_Page10(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page10());
+        }
+        private async void Button_Page11(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page11());
+        }
+        private async void Button_Page12(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page12());
+        }
+        private async void Button_Page13(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page13());
+        }
+        private async void Button_Page14(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page14());
+        }
+        private async void Button_Page15(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page15());
         }
     }
 }

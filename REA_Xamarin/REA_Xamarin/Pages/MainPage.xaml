@@ -9,7 +9,7 @@
 
             <Button BackgroundColor="#fefefe" CornerRadius="4" Margin="0, 20,0,0" Text="по датам" TextColor="#555555" FontSize="16"></Button>
 
-            <Label Text="Готовые задания" TextColor="#fefefe" FontSize="16" Margin="0,15,0,0"></Label>
+            <Label Text="Первые задания" TextColor="#fefefe" FontSize="16" Margin="0,15,0,0"></Label>
 
             <Grid RowSpacing="20" ColumnSpacing="20" Margin="0,15">
                 <Grid.RowDefinitions>
@@ -20,14 +20,15 @@
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
+
                 <Button BackgroundColor="#e51e31" CornerRadius="4" Text="StackLayOut" TextColor="#fefefe" Clicked="Button_Page1"></Button>
                 <Button Grid.Column="1" BackgroundColor="#b95d06" CornerRadius="4" Text="Content Page" TextColor="#fefefe" Clicked="Button_Page2"></Button>
                 <Button Grid.Row="1" BackgroundColor="#5f8108" CornerRadius="4" Text="Button" TextColor="#fefefe" Clicked="Button_Page3"></Button>
-                <Button Grid.Row="1" Grid.Column="1" BackgroundColor="#db148b" CornerRadius="4" Text="Задание 4" TextColor="#fefefe" Clicked="Button_Page4"></Button>
+                <Button Grid.Row="1" Grid.Column="1" BackgroundColor="#db148b" CornerRadius="4" Text="Press and Release" TextColor="#fefefe" Clicked="Button_Page4"></Button>
             </Grid>
-            
-            <Label Text="Будущие задания" TextColor="#fefefe" FontSize="16" Margin="0,15"></Label>
-            
+
+            <Label Text="Задание на Grid" TextColor="#fefefe" FontSize="16"></Label>
+
             <Grid RowSpacing="20" ColumnSpacing="20" Margin="0,15">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="90"></RowDefinition>
@@ -37,14 +38,46 @@
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Button BackgroundColor="#b4b4b4" CornerRadius="4" Text="Ожидается..." TextColor="#fefefe"></Button>
-                <Button Grid.Column="1" BackgroundColor="#787878" CornerRadius="4" Text="Ожидается..." TextColor="#fefefe"></Button>
-                <Button Grid.Row="1" BackgroundColor="#3c3c3c" CornerRadius="4" Text="Ожидается..." TextColor="#fefefe"></Button>
-                <Button Grid.Row="1" Grid.Column="1" BackgroundColor="#000000" CornerRadius="4" Text="Ожидается..." TextColor="#fefefe"></Button>
+                <Button BackgroundColor="#27856a" CornerRadius="4" Text="Basic Grid Demo" TextColor="#fefefe" Clicked="Button_Page5"></Button>
+                <Button Grid.Column="1" BackgroundColor="#2d46b9" CornerRadius="4" Text="Grid Alignment Page" TextColor="#fefefe" Clicked="Button_Page6"></Button>
+                <Button Grid.Row="1" BackgroundColor="#8c1932" CornerRadius="4" Text="Calculate Page" TextColor="#fefefe" Clicked="Button_Page7"></Button>
             </Grid>
-                   
+
+            <Label Text="Страницы" TextColor="#fefefe" FontSize="16"></Label>
+
+            <Grid RowSpacing="20" ColumnSpacing="20" Margin="0,15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90"></RowDefinition>
+                    <RowDefinition Height="90"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button BackgroundColor="#8d67ab" CornerRadius="4" Text="Flyout Page" TextColor="#fefefe" Clicked="Button_Page8"></Button>
+                <Button Grid.Column="1" BackgroundColor="#af2896" CornerRadius="4" Text="Tabbed Page" TextColor="#fefefe" Clicked="Button_Page9"></Button>
+                <Button Grid.Row="1" BackgroundColor="#b49bc8" CornerRadius="4" Text="Carousel Page" TextColor="#fefefe" Clicked="Button_Page10"></Button>
+                <Button Grid.Row="1" Grid.Column="1" BackgroundColor="#477d95" CornerRadius="4" Text="Templated Page" TextColor="#fefefe" Clicked="Button_Page11"></Button>
+            </Grid>
+
+            <Label Text="Последние задания" TextColor="#fefefe" FontSize="16"></Label>
+
+            <Grid RowSpacing="20" ColumnSpacing="20" Margin="0,15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90"></RowDefinition>
+                    <RowDefinition Height="90"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button BackgroundColor="#a56752" CornerRadius="4" Text="Check Box" TextColor="#fefefe" Clicked="Button_Page12"></Button>
+                <Button Grid.Column="1" BackgroundColor="#e13300" CornerRadius="4" Text="Radio Button" TextColor="#fefefe" Clicked="Button_Page13"></Button>
+
+                <!--<Button Grid.Row="1" BackgroundColor="#000" CornerRadius="4" Text="" TextColor="#fefefe" Clicked="Button_Page14"></Button>
+                <Button Grid.Row="1" Grid.Column="1" BackgroundColor="#000" CornerRadius="4" Text="" TextColor="#fefefe" Clicked="Button_Page15"></Button>-->
+                
+            </Grid>
         </StackLayout>
-        
     </ScrollView>
-    
 </ContentPage>

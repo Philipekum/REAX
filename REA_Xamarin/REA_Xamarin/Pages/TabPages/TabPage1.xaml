@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="REA_Xamarin.Pages.TabPages.TabPage1"
+             BackgroundColor="Coral"
+             Title="BoxView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="BoxView предназначен для отображения прямоугольника с заданной шириной, высотой и цветом"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   WidthRequest="300" BackgroundColor="Brown"
+                   HeightRequest="300" TextColor="Yellow"
+                   FontAttributes="Bold"
+                   FontSize="30"/>
+            <BoxView
+                     WidthRequest="250"
+                     HeightRequest="250"
+                     VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="Center"
+                     BackgroundColor="OrangeRed"/>      
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
