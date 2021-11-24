@@ -1,12 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="REA_Xamarin.Pages.Page15">
+             x:Class="REA_Xamarin.Pages.Page15"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="20">
+            <Label Text="Создание напоминания"
+                   FontAttributes="bold"
+                   HorizontalOptions="Center"
+                   FontSize="40"
+                   TextColor="White"/>
+            <Entry x:Name="Ent"
+                   TextColor="White"
+                   FontSize="30"
+                   Placeholder="О чем Вам напомнить?"
+                   FontAttributes="Bold"/>
+            <Label Text=" Выберите время"
+                   FontAttributes="bold"
+                   TextColor="White"
+                   FontSize="30"/>
+            <TimePicker x:Name="TmPicker"
+                        TextColor="White"
+                        FontSize="45"
+                        Time="14:00:00"
+                        Format="T"
+                        PropertyChanged="OnTimePickerChanged" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Включить таймер:"
+                       FontSize="30"
+                       FontAttributes="Bold"
+                       TextColor="White"/>
+                <Switch x:Name="Sw"
+                        HorizontalOptions="EndAndExpand"
+                        Toggled="OnSwitchToggled"
+                        ThumbColor="White" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
