@@ -60,7 +60,7 @@
                 <Button Grid.Row="1" Grid.Column="1" BackgroundColor="#477d95" CornerRadius="4" Text="Templated Page" TextColor="#fefefe" Clicked="Button_Page11"></Button>
             </Grid>
 
-            <Label Text="Последние задания" TextColor="#fefefe" FontSize="16"></Label>
+            <Label Text="CheckBoxes и Pickers" TextColor="#fefefe" FontSize="16"></Label>
 
             <Grid RowSpacing="20" ColumnSpacing="20" Margin="0,15">
                 <Grid.RowDefinitions>
@@ -76,6 +76,24 @@
                 <Button Grid.Row="1" BackgroundColor="#5f8108" CornerRadius="4" Text="Date Picker" TextColor="#fefefe" Clicked="Button_Page14"></Button>
                 <Button Grid.Row="1" Grid.Column="1" BackgroundColor="#8d67ab" CornerRadius="4" Text="Time Picker" TextColor="#fefefe" Clicked="Button_Page15"></Button>
             </Grid>
+
+            <Label Text="Последние задания" TextColor="#fefefe" FontSize="16"></Label>
+
+            <Grid RowSpacing="20" ColumnSpacing="20" Margin="0,15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90"></RowDefinition>
+                    <RowDefinition Height="90"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button BackgroundColor="Indigo" CornerRadius="4" Text="Content View" TextColor="#fefefe" Clicked="Button_Page16"></Button>
+                <Button Grid.Column="1" BackgroundColor="Black" CornerRadius="4" Text="Coming Soon..." TextColor="#fefefe" Clicked="Button_Page17"></Button>
+                <Button Grid.Row="1" BackgroundColor="Black" CornerRadius="4" Text="Coming Soon..." TextColor="#fefefe" Clicked="Button_Page18"></Button>
+                <Button Grid.Row="1" Grid.Column="1" BackgroundColor="Black" CornerRadius="4" Text="Coming Soon..." TextColor="#fefefe" Clicked="Button_Page19"></Button>
+            </Grid>
+            
         </StackLayout>
     </ScrollView>
 </ContentPage>
