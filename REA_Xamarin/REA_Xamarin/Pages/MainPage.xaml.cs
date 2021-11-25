@@ -75,5 +75,25 @@ namespace REA_Xamarin
         {
             await Navigation.PushAsync(new Page15());
         }
+
+        private async void Button_Page16(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page16());
+        }
+
+        private async void Button_Page17(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page17());
+        }
+
+        private async void Button_Page18(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page18());
+        }
+
+        private async void Button_Page19(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page19());
+        }
     }
 }

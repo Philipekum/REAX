@@ -33,3 +33,8 @@ C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard
 C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Page14.xaml.g.cs
 C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Page15.xaml.g.cs
 C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\SplashPage.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Page16.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Page17.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Page18.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Page19.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Card.xaml.g.cs
