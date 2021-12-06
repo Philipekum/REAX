@@ -38,3 +38,7 @@ C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard
 C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Page18.xaml.g.cs
 C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Page19.xaml.g.cs
 C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Card.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Image_Demo\DownloadImages.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Image_Demo\EmbImages.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Image_Demo\GIFImages.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Image_Demo\LocalImages.xaml.g.cs
