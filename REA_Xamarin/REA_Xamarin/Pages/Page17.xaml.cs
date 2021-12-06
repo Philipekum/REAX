@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace REA_Xamarin.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page17 : ContentPage
+    public partial class Page17 : TabbedPage
     {
         public Page17()
         {

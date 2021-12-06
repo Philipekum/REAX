@@ -14,7 +14,7 @@ namespace REA_Xamarin.Pages {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\Page17.xaml")]
-    public partial class Page17 : global::Xamarin.Forms.ContentPage {
+    public partial class Page17 : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
