@@ -1,12 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="REA_Xamarin.Pages.Page19">
+             x:Class="REA_Xamarin.Pages.Page19"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="20">
+            <Label Text="Развертывание/Свертывание содержимого при нажатии"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Gray"
+                   FontAttributes="Bold"
+                   FontSize="14"/>
+                <xct:Expander>
+                <xct:Expander.Header>
+                    <Label Text="Попов Алексей Анатольевич"
+                           FontAttributes="Bold"
+                           FontSize="20"
+                           TextColor="White"
+                           Padding="30"/>
+                </xct:Expander.Header>
+                
+                <Grid Padding="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="Popov.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="220"
+                           WidthRequest="170" />
+                    <Label Grid.Column="1"
+                           MaxLines="12"
+                           Text= "Доцент кафедры Информатики. Кандидат технических наук. Общий стаж работы: 34 года."
+                           FontAttributes="Bold"
+                           TextColor="White"/>
+                </Grid>
+            </xct:Expander>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

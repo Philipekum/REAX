@@ -9,8 +9,9 @@ namespace REA_Xamarin
         public App()
         {
             InitializeComponent();
-
+            Device.SetFlags(new string[] { "Expander_Experimental" });
             MainPage = new NavigationPage(new REA_Xamarin.MainPage());
+
         }
 
         protected override void OnStart()
