@@ -90,8 +90,8 @@
                 </Grid.ColumnDefinitions>
                 <Button BackgroundColor="Indigo" CornerRadius="4" Text="Content View" TextColor="#fefefe" Clicked="Button_Page16"></Button>
                 <Button Grid.Column="1" BackgroundColor="#27856a" CornerRadius="4" Text="Image Demo" TextColor="#fefefe" Clicked="Button_Page17"></Button>
-                <Button Grid.Row="1" BackgroundColor="Black" CornerRadius="4" Text="Coming Soon..." TextColor="#fefefe" Clicked="Button_Page18"></Button>
-                <Button Grid.Row="1" Grid.Column="1" BackgroundColor="Black" CornerRadius="4" Text="Coming Soon..." TextColor="#fefefe" Clicked="Button_Page19"></Button>
+                <Button Grid.Row="1" BackgroundColor="#b95d06" CornerRadius="4" Text="Label Demo" TextColor="#fefefe" Clicked="Button_Page18"></Button>
+                <Button Grid.Row="1" Grid.Column="1" BackgroundColor="Black" CornerRadius="4" Text="Expander Demo" TextColor="#fefefe" Clicked="Button_Page19"></Button>
             </Grid>
             
         </StackLayout>

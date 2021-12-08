@@ -1,12 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="REA_Xamarin.Pages.Page18">
+             x:Class="REA_Xamarin.Pages.Page18"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="5,10">
+            <Label Padding="10" Text="Это текст с параметрами отображения по умолчанию" />
+            <Label Padding="10"
+                   FontSize="20" TextColor="White"
+                   Text="Стиль bold, интервал между буквами равен 5"
+                   FontAttributes="Bold"
+                   CharacterSpacing="5" />    
+            <Label Padding="10" FontSize="20" TextColor="White"
+                   TextDecorations="Underline"
+                   Text="Текст с подчеркиванием" />
+            <Label Padding="10" FontSize="20" TextColor="White"
+                   TextDecorations="Strikethrough"
+                   Text="Перечеркнутый текст" />
+            <Label Padding="10" FontSize="30"
+                   TextColor="White"
+                   Text="Усечение текста в элементе управления Label"
+                   LineBreakMode="MiddleTruncation"
+                   MaxLines="2" />            
+            <Label Padding="10">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Red Bold Text, "
+                              TextColor="Red"
+                              FontAttributes="Bold"
+                              FontSize="18" />
+                        <Span Text="Default Text, "
+                              TextColor="Orange"
+                              FontSize="20"/>
+                        <Span Text="Italic small text"
+                              TextColor="Violet"
+                              FontAttributes="Italic"
+                              FontSize="22" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Padding="10"
+                   LineBreakMode="WordWrap"
+                   TextColor="White"
+                   FontSize="20"
+                   Text= "Чтобы нарисовать прямоугольник, необходимо создать объект Rectangle"
+                   LineHeight="1.5"/>
+            <Label Padding="10"
+                   LineBreakMode="WordWrap"
+                   TextColor="Coral"
+                   FontSize="20"
+                   Text="Чтобы закрасить прямоугольник, необходимо использовать свойство Fill"
+                   LineHeight="2.5" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
