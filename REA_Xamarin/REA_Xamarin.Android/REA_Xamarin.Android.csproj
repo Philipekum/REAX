@@ -64,6 +64,24 @@
     <Compile Include="SplashActivity.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-Black.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-BlackItalic.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-Bold.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-ExtraBold.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-ExtraBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-ExtraLight.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-ExtraLightItalic.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-Italic.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-Light.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-Medium.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-MediumItalic.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-Regular.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-SemiBold.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-SemiBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-Thin.ttf" />
+    <AndroidAsset Include="Assets\MontserattFont\Montserrat-ThinItalic.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -158,6 +176,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Popov.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\check.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
