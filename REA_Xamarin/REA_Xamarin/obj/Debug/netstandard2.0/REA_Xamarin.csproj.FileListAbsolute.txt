@@ -42,3 +42,5 @@ C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard
 C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Image_Demo\EmbImages.xaml.g.cs
 C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Image_Demo\GIFImages.xaml.g.cs
 C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\Image_Demo\LocalImages.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\TodoItemPage.xaml.g.cs
+C:\Users\filip\Projects\Xamarin\RX\REA_Xamarin\REA_Xamarin\obj\Debug\netstandard2.0\Pages\TodoListPage.xaml.g.cs
